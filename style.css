@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+    width: 60%;
+    height: 75%;
+    margin-top: 20px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container{
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 40px 80px 10px black;
+    margin: 10px;
+    background: linear-gradient(to bottom right,#ffffff,#3f3c3c);
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.header, .footer{
+    color: rgb(102, 95, 95);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
